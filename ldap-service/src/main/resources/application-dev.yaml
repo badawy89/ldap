@@ -1,2 +1,7 @@
 server:
-  port: 6060
+  port: 6065
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
